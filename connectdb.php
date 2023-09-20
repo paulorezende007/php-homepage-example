@@ -1,5 +1,4 @@
 <?php include("includes/a_config.php");?>
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -11,16 +10,13 @@
 <?php include("includes/navigation.php");?>
 
 <div class="container" id="main-content">
+	<h3>Teste de Conexão Com o Banco de Dados:</h3>
 	<p></p>
-	<h3>Nome da Instância: </h3>
+	<h4 style="color:blue"> <?php include("includes/mysql-query.php");?> </h4>
 	<p></p>
-	<h3 style="color:blue;"><b><?php print gethostname();?></b></h3>
-	<p></p>
-	<p></p>
-	<p></p>
-	<p></p>
-	<?php include("includes/footer.php");?>
 </div>
+
+<?php include("includes/footer.php");?>
 
 </body>
 </html>
