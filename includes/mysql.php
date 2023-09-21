@@ -4,7 +4,7 @@ $host = '10.35.35.3';
 /* MySQL account username */
 $user = 'root';
 /* MySQL account password */
-$passwd = 'hF5nb41P6@re.vPH';
+$passwd = 'DB_PASSWD';#'hF5nb41P6@re.vPH';
 /* The schema you want to use */
 $database = 'website-db';
 /* Connection with MySQLi, procedural-style */
