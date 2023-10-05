@@ -18,10 +18,10 @@
 	</p>
 	<h3 style="color:green;"><b><?php print gethostname();?></b></h3>
 	<p></p>
-	<h3 style="color:green;">
+	<h3 style="color:red;">
 		<b>
 		<?php
-		for($i = 0; $i < 90000000; $i++) $a += $i;
+		for($i = 0; $i < 20000000; $i++) $a += $i;
 		print $a;
 		?>
 		</b>
