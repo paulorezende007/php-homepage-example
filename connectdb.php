@@ -12,7 +12,7 @@
 <div class="container" id="main-content">
 	<h3>Teste de Conexão Com o Banco de Dados:</h3>
 	<p></p>
-	<h4 style="color:green"> <?php include("includes/mysql-query.php");?> </h4>
+	<h4 style="color:blue"> <?php include("includes/mysql-query.php");?> </h4>
 	<p></p>
 </div>
 

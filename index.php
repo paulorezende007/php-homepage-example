@@ -14,7 +14,7 @@
 	<p></p>
 	<h3>Nome da Instância: </h3>
 	<p></p>
-	<h3 style="color:green;"><b><?php print gethostname();?></b></h3>
+	<h3 style="color:blue;"><b><?php print gethostname();?></b></h3>
 	<p></p>
 	<p></p>
 	<p></p>
